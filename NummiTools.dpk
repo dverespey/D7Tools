@@ -1,0 +1,80 @@
+package NummiTools;
+
+{$R *.res}
+{$R 'Nummi.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'MAPS Delphi Components'}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  vcldb,
+  bdertl,
+  vclx,
+  dclaxserver,
+  adortl,
+  dclado,
+  designide,
+  rtl;
+
+contains
+  Nummi in 'Nummi.pas',
+  NummiTime in 'NummiTime.pas',
+  BeepSpeaker in 'BeepSpeaker.pas',
+  Blnkbutt in 'Blnkbutt.pas',
+  Cinifld in 'Cinifld.pas',
+  Cregfld in 'Cregfld.pas',
+  emptypanel in 'EmptyPanel.pas',
+  FlashPanel in 'FlashPanel.pas',
+  History in 'History.pas',
+  Ini in 'Ini.pas',
+  Inilocal in 'Inilocal.pas',
+  Litbutt in 'LitButt.pas',
+  Memoappend in 'Memoappend.pas',
+  Alarmpnl in 'Alarmpnl.pas',
+  Panelclk in 'Panelclk.pas',
+  Panelmes in 'Panelmes.pas',
+  PCPanel in 'PCPanel.pas',
+  Seqnum in 'Seqnum.pas',
+  ThreadedActivityLog in 'ThreadedActivityLog.pas',
+  ThreadedEventPanel in 'ThreadedEventPanel.pas',
+  ThreadedBDEQuery in 'ThreadedBDEQuery.pas',
+  Timerpnl in 'Timerpnl.pas',
+  TitlePanel in 'TitlePanel.pas',
+  ThreadedPanel in 'ThreadedPanel.pas',
+  BDEAppStatus in 'BDEAppStatus.pas',
+  ADOActivityLog in 'ADOActivityLog.pas',
+  ThreadedADOQuery in 'ThreadedADOQuery.pas',
+  ThreadedQueryDef in 'ThreadedQueryDef.pas',
+  ADOAppStatus in 'ADOAppStatus.pas',
+  ADOVersion in 'ADOVersion.pas',
+  BDEActivityLog in 'BDEActivityLog.pas',
+  NUMMICheckBox in 'NUMMICheckBox.pas',
+  NUMMIEdit in 'NUMMIEdit.pas',
+  NUMMIMemo in 'NUMMIMemo.pas',
+  NUMMIMaskEdit in 'NUMMIMaskEdit.pas',
+  ADU_200_Comp in 'ADU_200_Comp.pas',
+  NUMMIComboBox in 'NUMMIComboBox.pas',
+  PEWSHeartbeat in 'PEWSHeartbeat.pas';
+
+end.
